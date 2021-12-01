@@ -1,0 +1,328 @@
+.firstSectionContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    height : min-content;  
+
+}
+
+.YouTube{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.downloadApp{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+
+}
+
+ .vyt{
+   text-align: center;
+ }
+
+ .dvoxtext{
+     padding-top: 4vh;
+     text-align: center;
+     font-size: 40px;
+     
+ }
+
+ .descriptiondVox{
+    padding: 30px;
+ }
+
+  .btnDownload {
+    color: #ffffff;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    background-color: black;
+    border: 2px solid;
+    transition: ease-out 0.25s;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .btnDownload:hover{
+    box-shadow: inset 300px 0 0 0 white;
+    color:black;
+  }
+  .dVox-Card{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    height : min-content;  
+
+    height: min-content;
+    width: min-content;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+    transition: 0.1s ease-in-out;
+    font-size: 16px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  }
+
+
+@media screen and (max-width: 800px) {
+
+  
+
+    .dVox-Card{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        scale: 0.8;
+    }
+
+    .btnDownload {
+        color: #ffffff;
+        width: 294px;
+        height: 50px;
+        outline: none;
+        border: none;
+        font-size: 1.5rem;
+        background-color: black;
+        border: 2px solid;
+        transition: ease-out 0.25s;
+        cursor: pointer;
+        border-radius: 10px 10px 10px 10px;
+      }
+      
+    .btnDownload:hover{
+        box-shadow: inset 300px 0 0 0 white;
+        color:black;
+      }
+      .downloadApp{
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+        padding-top: 3vh;
+    
+    }
+}
+  
+ 
+.videoTag {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -100;
+  filter: blur(2px);
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.dev-intro{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.dev-intro-title{
+  flex: auto 1 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.dev-intro-links{
+  position: absolute;
+  right: 4vh;
+  top: 96vh;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.dev-placeimg{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.dev-column{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 95vw;
+  margin: auto;
+}
+
+.developers-person-container{
+  display: flex;
+  flex-direction: row;
+
+  height: 250px;
+  width: 625px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  text-align: center;
+
+  transition: 0.1s ease-in-out;
+  margin-bottom: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+}
+
+.developers-person-container:hover{
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+
+.developers-person-sectionOne{
+  display: flex;
+  flex-direction: row;
+}
+
+.developers-person-text-container{
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.developers-person-name{
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+}
+
+.developers-person-title{
+  color:gray;
+  text-align: left;
+  margin-left: 2rem;
+  font-size: 1rem;
+  padding-right: 2rem;
+}
+
+.developers-person-email-a{
+  text-decoration: none;
+}
+.developers-person-email{
+  color: grey;
+  text-align: left;
+  margin-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+}
+
+.developers-person-email:hover{
+  color: #bfc5cc;
+}
+
+
+.developers-person-social-media{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-mendia-buttons{
+  margin: 0px 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #000000;
+}
+
+@media screen and (max-width: 1400px) {
+  .dev-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+  }
+  .developers-person-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  
+  .dev-placeimg{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .developers-person-container{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    height: fit-content;
+    width: 300px;
+
+    text-align: center;
+
+    transition: 0.1s ease-in-out;
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .developers-person-text-container{
+    width: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .developers-person-name{
+    font-size: 1rem;
+  }
+  .developers-person-title{
+    font-size: 0.75rem;  
+  }
+
+  .developers-person-email{
+    font-size: 0.75rem;
+  
+  }
+
+  .developers-person-social-media{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.home,
+.developers,
+.products,
+.joinus {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 80px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 20px;
+  display: inline-block;
+  font-size: 150px;
+
+}
+
+.overlay-text,.background-container{
+  color: black;
+  animation: fadeIn linear 1.5s;
+  -webkit-animation: fadeIn linear 1.5s;
+  -moz-animation: fadeIn linear 1.5s;
+  -o-animation: fadeIn linear 1.5s;
+  -ms-animation: fadeIn linear 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type=text], input[type=email], textarea{
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.home{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.developers {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.products {
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 100px;
+}
+
+.joinus {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+  margin: 250px;
+  margin-bottom: 300px;
+  font-size: 4rem;
+}
+
+/* .curve{
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve::before{
+  content:'';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 54%;
+  height: 100%;
+  background-color: black;
+  transform: translate(84.8%, 70%);
+}
+
+.curve::after{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: white;
+  transform: translate(-1.9%, 41.9%);
+  z-index: auto;
+}
+
+.curve2{
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve2::before{
+  content:'';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 62%;
+  height: 100%;
+  background-color: white;
+  transform: translate(63%, 330%);
+}
+
+.curve2::after{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: black;
+  transform: translate(-2%, 285%);
+  z-index: auto;
+}
+
+.curve2{
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve2::before{
+  content:'';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 57%;
+  height: 100%;
+  background-color: white;
+  transform: translate(75%, 320%);
+}
+
+.curve2::after{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 54%;
+  height: 100%;
+  background-color: black;
+  transform: translate(-0.5%, 285%);
+  z-index: auto;
+}
+
+.curve3{
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve3::before{
+  content:'';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: black;
+  transform: translate(82%, 565%);
+}
+
+.curve3::after{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: white;
+  transform: translate(-3%, 542%);
+  z-index: auto;
+} */
+
+/* .curve4{
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve4::before{
+  content:'';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 54%;
+  height: 100%;
+  background-color: white;
+  transform: translate(94%, 800%);
+}
+
+.curve4::after{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: black;
+  transform: translate(-5%, 830%);
+  z-index: auto;
+} */
+
+
+
+
+
+
+
+
+
