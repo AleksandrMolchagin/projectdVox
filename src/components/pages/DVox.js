@@ -113,9 +113,19 @@ export default function DVox() {
               </div>
               <div className="descriptiondVox">
                 <p>
-                  A decentralized application built to help Kalamazoo College students share their thoughts and ideas anonymously.
-                  Built with Ethereum blockchain system.
+                  A decentralized application built to share thought anonymously using one 
+                  of the most secured techonology: Ethereum blockchain. 
                 </p>
+                <br></br>
+                <p>
+                  Built by K students to voice your thoughts.
+                </p>
+                <br></br>
+                <p>
+                  Interested in bringing dVox to your school?
+                  <p><a href="/reqeust">Fill this form! </a></p>
+                </p>
+  
               </div>
               <div className="YouTube-mobile">
                 <YouTube   opts={{
