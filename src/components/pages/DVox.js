@@ -123,7 +123,7 @@ export default function DVox() {
                 <br></br>
                 <p>
                   Interested in bringing dVox to your school?
-                  <p><a href="/reqeust">Fill this form! </a></p>
+                  <p><a href="http://dvox.dpearth.com/request.html">Fill this form! </a></p>
                 </p>
   
               </div>
